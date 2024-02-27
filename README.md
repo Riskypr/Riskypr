@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--
 **Riskypr/Riskypr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -15,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 # <summary><strong>Hi there :wave: , I'm Goo!</strong></summary>
-Lifelong Learner, currently working as budagh kompeni.
+Unleashing Potential, One Lesson at a Time: Embrace Knowledge, Ignite Growth!
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=goonesmile&label=Profile%20views&color=0e75b6&style=flat" alt="isrealodejobi" />
 </p>
 
@@ -26,20 +24,15 @@ Lifelong Learner, currently working as budagh kompeni.
 
 ### <summary><strong>Yosh!</strong></summary>
 <p>
-    - :keyboard: I’m currently learning Data Analytics. </br>
+    - :keyboard: I am currently learning front-end web and back-end development. </br>
     - :speech_balloon: Ask me about anything.</br>
-    - :mailbox: How to reach me: <a href="mailto:youremail@gmail.com">Email me!</a>  </br>
-    - :cloud: Pronouns: She/Her. </br>
-    - :game_die: Drawing and writing are part of me. </br>
+    - :mailbox: How to reach me: <a href="mailto:riskyprasetyo021@gmail.com">Email me!</a>  </br>
 <p>
  
 ### <summary><strong>Let's connect!</strong></summary>
-<a href="https://twitter.com/yours">
-  <img align="left" alt="Goo's Twitter" width="20px" src="https://simpleicons.now.sh/twitter/495f7e" />
-</a>
-<a href="https://www.instagram.com/yours/">
+<a href="https://www.instagram.com/riskyprasetyo20?igsh=Ym41NWMxMjRsdXZo">
   <img align="left" alt="Goo's Instagram" width="20px" src="https://simpleicons.now.sh/instagram/495f7e" />
 </a>
-<a href="https://yours.com/">
+<a href="">
   <img align="left" alt="Goo's Blog" width="20px" src="https://simpleicons.now.sh/blogger/495f7e" />
 </a>
