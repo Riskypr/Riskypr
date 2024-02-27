@@ -12,7 +12,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-# <summary><strong>Hi there :wave: , I'm Goo!</strong></summary>
+# <summary><strong>Hi there :wave: , I'm Risky!</strong></summary>
 Unleashing Potential, One Lesson at a Time: Embrace Knowledge, Ignite Growth!
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=goonesmile&label=Profile%20views&color=0e75b6&style=flat" alt="isrealodejobi" />
 </p>
