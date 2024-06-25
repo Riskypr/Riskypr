@@ -21,13 +21,6 @@ Unleashing Potential, One Lesson at a Time: Embrace Knowledge, Ignite Growth!
 <p>
     <img src="https://img.shields.io/badge/Text%20Editor-Visual%20Studio%20Code-blue?&logo=visual%20studio%20code&logoColor=blue" />
 </p>
-
-### <summary><strong>Yosh!</strong></summary>
-<p>
-    - :keyboard: I am currently learning front-end web and back-end development. </br>
-    - :speech_balloon: Ask me about anything.</br>
-    - :mailbox: How to reach me: <a href="mailto:riskyprasetyo021@gmail.com">Email me!</a>  </br>
-<p>
  
 ### <summary><strong>Let's connect!</strong></summary>
 <a href="https://www.instagram.com/riskyprasetyo20?igsh=Ym41NWMxMjRsdXZo">
