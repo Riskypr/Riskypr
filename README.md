@@ -33,6 +33,6 @@ Unleashing Potential, One Lesson at a Time: Embrace Knowledge, Ignite Growth!
 <a href="https://www.instagram.com/riskyprasetyo20?igsh=Ym41NWMxMjRsdXZo">
   <img align="left" alt="Goo's Instagram" width="20px" src="https://simpleicons.now.sh/instagram/495f7e" />
 </a>
-<a href="">
+<a href="https://www.linkedin.com/in/risky-prasetyo-905423256/">
   <img align="left" alt="Goo's Blog" width="20px" src="https://simpleicons.now.sh/linkedin/495f7e" />
 </a>
