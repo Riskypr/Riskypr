@@ -2,74 +2,56 @@
 **Riskypr/Riskypr** is a ✨ special ✨ repository because its README.md appears on your GitHub profile.
 -->
 
-# 👋 Hi there, I'm Risky Prasetyo!
+<h1 align="center">Hi 👋, I'm Risky Prasetyo</h1>
+<h3 align="center">Fullstack Developer • Data Enthusiast • AI Learner</h3>
 
-🚀 **Fullstack Developer | Data Enthusiast | AI Learner**
-
-> "Unleashing potential, one line of code at a time."
-
-Saya adalah mahasiswa Teknik Informatika yang tertarik pada pengembangan web, data science, dan kecerdasan buatan. Saat ini saya aktif mengembangkan berbagai proyek berbasis web dan terus belajar teknologi baru untuk meningkatkan skill.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=00F7FF&center=true&vCenter=true&width=500&lines=Building+Scalable+Web+Apps;Learning+AI+and+Machine+Learning;Passionate+About+Technology" />
+</p>
 
 ---
 
-## 🧑‍💻 About Me
-- 🎓 Mahasiswa Teknik Informatika  
-- 💼 Fokus: Fullstack Web Development & Data Science  
-- 🌱 Sedang belajar: AI Engineer & Machine Learning  
-- ⚡ Suka membangun project yang bermanfaat & scalable  
+## 🚀 About Me
+- 🎓 Informatics Engineering Student  
+- 💻 Focus on **Fullstack Development & Data Science**  
+- 🌱 Currently learning **AI Engineer & Machine Learning**  
+- ⚡ Love building useful and impactful projects  
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-### 💻 Programming Languages
-<p>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
+### 💻 Languages
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-### ⚙️ Frameworks & Libraries
-<p>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-</p>
+### ⚙️ Frameworks
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
+![Next JS](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![Node JS](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 
-### 🎨 Frontend & Styling
-<p>
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-</p>
+### 🎨 Styling
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 
 ### 🧰 Tools
-<p>
-  <img src="https://img.shields.io/badge/Editor-VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Version_Control-Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-</p>
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 ---
 
-## 📊 GitHub Stats
-## 📊 GitHub Stats
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Riskypr&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Riskypr&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-## 🌐 Let's Connect!
-<p>
-  <a href="https://www.instagram.com/riskyprasetyo20">
-    <img src="https://img.shields.io/badge/Instagram-@riskyprasetyo20-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/risky-prasetyo-905423256/">
-    <img src="https://img.shields.io/badge/LinkedIn-Risky%20Prasetyo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
+## 🌐 Connect With Me
+<p align="left">
+<a href="https://www.instagram.com/riskyprasetyo20" target="blank">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/risky-prasetyo-905423256/" target="blank">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
+</a>
 </p>
 
 ---
 
 ## ✨ Fun Fact
-💡 "Coding itu seperti puzzle — semakin sulit, semakin seru!"
+> Coding is like solving puzzles — the harder it gets, the more exciting it becomes 🔥
