@@ -100,14 +100,14 @@ const risky = {
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=nyatet-gan&theme=tokyonight&hide_border=true" />
 </a>
 <a href="https://github.com/Riskypr/NAMA-REPO-2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=NAMA-REPO-2&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=HubReminder&theme=tokyonight&hide_border=true" />
 </a>
 
 <a href="https://github.com/Riskypr/NAMA-REPO-3">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=NAMA-REPO-3&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=Monitoring-pc&theme=tokyonight&hide_border=true" />
 </a>
 <a href="https://github.com/Riskypr/NAMA-REPO-4">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=NAMA-REPO-4&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=pdf-merge&theme=tokyonight&hide_border=true" />
 </a>
 
 </div>
