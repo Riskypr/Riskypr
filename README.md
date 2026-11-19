@@ -97,7 +97,7 @@ const risky = {
 <div align="center">
 
 <a href="https://github.com/Riskypr/NAMA-REPO-1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=NAMA-REPO-1&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=nyatet-gan&theme=tokyonight&hide_border=true" />
 </a>
 <a href="https://github.com/Riskypr/NAMA-REPO-2">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=NAMA-REPO-2&theme=tokyonight&hide_border=true" />
