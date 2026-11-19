@@ -111,17 +111,17 @@ Your branch is ahead of 'sleep' by 99 commits.
 <div align="center">
 
 <a href="https://github.com/Riskypr/NAMA-REPO-1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=NAMA-REPO-1&theme=dracula&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=Monitorinbg-pc&theme=dracula&hide_border=true" />
 </a>
 <a href="https://github.com/Riskypr/NAMA-REPO-2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=NAMA-REPO-2&theme=dracula&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=HubReminder&theme=dracula&hide_border=true" />
 </a>
 
 <a href="https://github.com/Riskypr/NAMA-REPO-3">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=NAMA-REPO-3&theme=dracula&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=pdf-merger&theme=dracula&hide_border=true" />
 </a>
 <a href="https://github.com/Riskypr/NAMA-REPO-4">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=NAMA-REPO-4&theme=dracula&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Riskypr&repo=Nyatet-gan&theme=dracula&hide_border=true" />
 </a>
 
 </div>
