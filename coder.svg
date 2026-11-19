@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" role="img" aria-label="Kartun programmer ngoding sambil ngopi, terminal mengetik git commit" xmlns:c2pa="http://c2pa.org/manifest">
+  <style>
+    .mono { font-family: 'Courier New', Consolas, monospace; }
+    .float { animation: float 4s ease-in-out infinite; }
+    .steam { animation: steam 2.6s ease-in-out infinite; }
+    .blink { animation: blink 5s infinite; transform-box: fill-box; transform-origin: center; }
+    .caret { animation: caret 1s steps(1) infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes steam { 0% { opacity: 0; transform: translateY(6px); } 50% { opacity: .85; } 100% { opacity: 0; transform: translateY(-12px); } }
+    @keyframes blink { 0%,92%,100% { transform: scaleY(1); } 96% { transform: scaleY(.1); } }
+    @keyframes caret { 50% { opacity: 0; } }
+    .cov { fill: #0d1117; }
+    .c1 { animation: t1 14s steps(24, end) infinite; }
+    .c2 { animation: t2 14s steps(24, end) infinite; }
+    .c3 { animation: t3 14s steps(24, end) infinite; }
+    .c4 { animation: t4 14s steps(24, end) infinite; }
+    .c5 { animation: t5 14s steps(24, end) infinite; }
+    @keyframes t1 { 0%,3% { transform: translateX(0); } 18%,100% { transform: translateX(340px); } }
+    @keyframes t2 { 0%,20% { transform: translateX(0); } 30%,100% { transform: translateX(340px); } }
+    @keyframes t3 { 0%,34% { transform: translateX(0); } 42%,100% { transform: translateX(340px); } }
+    @keyframes t4 { 0%,46% { transform: translateX(0); } 56%,100% { transform: translateX(340px); } }
+    @keyframes t5 { 0%,62% { transform: translateX(0); } 72%,100% { transform: translateX(340px); } }
+  </style>
+
+  <!-- background -->
+  <rect x="1" y="1" width="798" height="318" rx="16" fill="#0d1117" stroke="#30363d"/>
+
+  <!-- floating dev symbols -->
+  <g class="mono" fill="#00f7ff" opacity=".28" font-size="22" font-weight="bold">
+    <text class="float" x="48" y="92">{ }</text>
+    <text class="float" style="animation-delay:-1.3s" x="70" y="196">&lt;/&gt;</text>
+    <text class="float" style="animation-delay:-2.2s" x="150" y="62" font-size="16">0101</text>
+    <text class="float" style="animation-delay:-3s" x="56" y="250" font-size="16">git</text>
+  </g>
+
+  <!-- terminal window -->
+  <rect x="420" y="40" width="360" height="240" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <path d="M420 50 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v18 h-360z" fill="#161b22"/>
+  <circle cx="438" cy="54" r="5" fill="#ff5f56"/>
+  <circle cx="456" cy="54" r="5" fill="#ffbd2e"/>
+  <circle cx="474" cy="54" r="5" fill="#27c93f"/>
+  <text class="mono" x="600" y="58" font-size="11" fill="#8b949e" text-anchor="middle">risky@dev: ~/projects</text>
+
+  <g class="mono" font-size="13">
+    <text x="440" y="100"><tspan fill="#39ff14">$</tspan><tspan fill="#e6edf3"> git commit -m "fix: works on my machine"</tspan></text>
+    <rect class="cov c1" x="440" y="86" width="340" height="18"/>
+
+    <text x="440" y="128" fill="#00f7ff">[main 3f9a1c2] 1 file changed, 0 bugs*</text>
+    <rect class="cov c2" x="440" y="114" width="340" height="18"/>
+
+    <text x="440" y="156"><tspan fill="#39ff14">$</tspan><tspan fill="#e6edf3"> npm run dev</tspan></text>
+    <rect class="cov c3" x="440" y="142" width="340" height="18"/>
+
+    <text x="440" y="184" fill="#00f7ff">ready - started on localhost:3000</text>
+    <rect class="cov c4" x="440" y="170" width="340" height="18"/>
+
+    <text x="440" y="212"><tspan fill="#39ff14">$</tspan></text>
+    <rect class="caret" x="456" y="200" width="8" height="14" fill="#39ff14"/>
+
+    <text x="440" y="250" fill="#6e7681">// TODO: tidur</text>
+    <rect class="cov c5" x="440" y="236" width="340" height="18"/>
+  </g>
+
+  <!-- desk -->
+  <rect x="40" y="262" width="350" height="10" rx="3" fill="#30363d"/>
+
+  <!-- hoodie + hood -->
+  <rect x="130" y="180" width="140" height="82" rx="34" fill="#6d28d9"/>
+  <ellipse cx="200" cy="172" rx="62" ry="22" fill="#5b21b6"/>
+
+  <!-- neck + head -->
+  <rect x="189" y="168" width="22" height="18" fill="#d9a066"/>
+  <circle cx="200" cy="135" r="42" fill="#f1c27d"/>
+
+  <!-- hair -->
+  <path d="M158 132 Q158 88 200 86 Q242 88 242 132 Q232 110 200 108 Q168 110 158 132Z" fill="#1f2937"/>
+
+  <!-- headphones -->
+  <path d="M154 138 Q154 82 200 82 Q246 82 246 138" fill="none" stroke="#00f7ff" stroke-width="7" stroke-linecap="round"/>
+  <rect x="146" y="124" width="15" height="32" rx="7" fill="#00f7ff"/>
+  <rect x="239" y="124" width="15" height="32" rx="7" fill="#00f7ff"/>
+
+  <!-- eyes (blink) -->
+  <g class="blink" fill="#111827">
+    <circle cx="183" cy="138" r="3"/>
+    <circle cx="217" cy="138" r="3"/>
+  </g>
+  <!-- glasses -->
+  <g fill="rgba(0,247,255,.12)" stroke="#e5e7eb" stroke-width="3">
+    <rect x="170" y="128" width="26" height="20" rx="5"/>
+    <rect x="204" y="128" width="26" height="20" rx="5"/>
+    <line x1="196" y1="136" x2="204" y2="136"/>
+  </g>
+  <!-- mouth -->
+  <path d="M190 158 Q200 166 210 158" fill="none" stroke="#7c2d12" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- laptop lid (back of laptop) -->
+  <rect x="120" y="205" width="160" height="57" rx="7" fill="#1f2937" stroke="#4b5563" stroke-width="2"/>
+  <text class="mono" x="200" y="243" font-size="18" font-weight="bold" fill="#00f7ff" text-anchor="middle">&lt;/&gt;</text>
+  <rect x="131" y="214" width="20" height="15" rx="3" fill="#f7df1e"/>
+  <text class="mono" x="141" y="225" font-size="9" font-weight="bold" fill="#000" text-anchor="middle">JS</text>
+  <circle cx="262" cy="222" r="9" fill="#ff2d20"/>
+  <text class="mono" x="262" y="226" font-size="11" font-weight="bold" fill="#fff" text-anchor="middle">L</text>
+
+  <!-- hands -->
+  <ellipse cx="158" cy="204" rx="12" ry="7" fill="#f1c27d"/>
+  <ellipse cx="242" cy="204" rx="12" ry="7" fill="#f1c27d"/>
+
+  <!-- coffee mug + steam -->
+  <rect x="318" y="234" width="28" height="28" rx="5" fill="#f59e0b"/>
+  <path d="M346 240 q12 0 12 10 q0 10 -12 10" fill="none" stroke="#f59e0b" stroke-width="4"/>
+  <text class="mono" x="332" y="253" font-size="12" font-weight="bold" fill="#7c2d12" text-anchor="middle">{}</text>
+  <g fill="none" stroke="#9ca3af" stroke-width="2" stroke-linecap="round">
+    <path class="steam" d="M324 228 q-5 -7 0 -13 q5 -6 0 -11"/>
+    <path class="steam" style="animation-delay:-.9s" d="M332 228 q-5 -7 0 -13 q5 -6 0 -11"/>
+    <path class="steam" style="animation-delay:-1.8s" d="M340 228 q-5 -7 0 -13 q5 -6 0 -11"/>
+  </g>
+
+  <!-- bug + speech bubble -->
+  <rect x="270" y="48" width="124" height="28" rx="8" fill="#161b22" stroke="#00f7ff"/>
+  <polygon points="332,76 344,76 338,88" fill="#161b22" stroke="#00f7ff"/>
+  <rect x="331" y="74" width="14" height="3" fill="#161b22"/>
+  <text class="mono" x="332" y="66" font-size="11" fill="#e6edf3" text-anchor="middle">it's a feature!</text>
+  <g transform="translate(338,116)">
+    <g class="float">
+      <g stroke="#16a34a" stroke-width="2" stroke-linecap="round">
+        <line x1="-6" y1="5" x2="-11" y2="13"/><line x1="0" y1="7" x2="0" y2="15"/><line x1="6" y1="5" x2="11" y2="13"/>
+        <line x1="-6" y1="-5" x2="-11" y2="-13"/><line x1="0" y1="-7" x2="0" y2="-15"/><line x1="6" y1="-5" x2="11" y2="-13"/>
+        <line x1="-16" y1="-3" x2="-22" y2="-9"/><line x1="-16" y1="3" x2="-22" y2="9"/>
+      </g>
+      <ellipse cx="2" cy="0" rx="12" ry="8" fill="#22c55e"/>
+      <circle cx="-13" cy="0" r="6" fill="#22c55e"/>
+      <circle cx="-15" cy="-2" r="1.6" fill="#0d1117"/>
+      <line x1="2" y1="-8" x2="2" y2="8" stroke="#16a34a" stroke-width="2"/>
+    </g>
+  </g>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpkNDQ2Nzg3Ny1lZGQzLTQ2ODQtOTRhYi1jMDhlY2Y4NzI2ZmUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaNYEpT6UHNaiE4D/2pEzdJQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo1N2JkNDJjZC00ODFjLTRmOGMtYTIxMC0yNWJlNTVjOTM2NGVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo5z7H7kFCM9nxIFOabDx38wAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggxpoDnU0UtZsJFh2K4tfcPHiKybNIHXJW78zjSN6d1oGkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaBkdxuc8LXZ8gx7TOALkyV0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIJ7zLHgSQ0yhd4Li/ielCPrXkpNX4ed7TsIqYijBFaptZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GR35Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmQ0NDY3ODc3LWVkZDMtNDY4NC05NGFiLWMwOGVjZjg3MjZmZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjQ3Y2ViM2IyLWViMGEtNDJlZC05OTY2LWQ5MWUzYmMxOTkzZnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDGmgOdTRS1mwkWHYri19w8eIrJs0gdclbvzONI3p3WgaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggNm9C0wz+NtdOjhdig85oj2QqXj1Rj2HuTwu+dFbaDdKiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggAoFDswYGMDSFtFvpXHowhl3JNqVi0N2oQWCpk/F0b8d0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQNAh8aj2EWm4gSM5/kjIr/XJwwZxiHV5jWugpmMKz2/VhmORleoGnq+ZcEsWo+Yyl+pYsCaJEaRmdB3YPefcQbc=</c2pa:manifest></metadata></svg>
